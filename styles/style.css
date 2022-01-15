@@ -1,0 +1,77 @@
+/* general */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 0 15%;
+  margin: 15px 0;
+}
+/* navigation */
+.site-name {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 13px;
+  color: black;
+}
+/* camera part */
+.camera-part {
+  margin: 15px 0;
+  width: 45%;
+}
+.camera-part h1 {
+  font-size: 45px;
+}
+button {
+  border: 0;
+  border-radius: 15px;
+  padding: 5px 10px;
+  background-color: #e02c6d;
+  color: white;
+}
+/* main part */
+#items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+}
+#items h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.items-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 15px 0;
+}
+.items-info {
+  padding: 0px 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.39);
+}
+.items-info img {
+  width: 100%;
+}
+.price {
+  font-size: 15px;
+}
+.ratings {
+  color: orange;
+}
+/* footer part */
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+}
