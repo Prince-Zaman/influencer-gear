@@ -68,6 +68,15 @@ button {
 .ratings {
   color: orange;
 }
+/* bonus part */
+.featured-products {
+  width: 45%;
+  margin: 15px 0;
+}
+.featured-products:hover {
+  background-color: rgba(220, 20, 60, 0.432);
+  border-radius: 15px;
+}
 /* footer part */
 footer {
   text-align: center;
